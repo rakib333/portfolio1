@@ -54,3 +54,25 @@ span{
     font-size: medium;
     border-radius: 20px;
 }
+.experience-main {
+    display: flex;
+    margin: 0 20px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.area-one {
+    box-shadow: 10px 10px 40px gray;
+    margin-right: 20px;
+    border-radius: 10px;
+    width: 40%;
+    margin: 4%;
+    padding-left: 10px;
+}
+
+#area-one {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
